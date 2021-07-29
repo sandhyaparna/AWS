@@ -5,7 +5,3 @@
 * https://www.capitalone.com/tech/machine-learning/advice-for-taking-the-aws-machine-learning-specialty-exam/
 
 
-### AWS Questions
-* The AWS Certification Quiz Show: Machine Learning - Specialty exam, Episode 1  https://www.aws.training/Details/Video?id=37281
-* The AWS Certification Quiz Show: Machine Learning - Specialty exam, Episode 2  https://www.aws.training/Details/Video?id=37285
-
