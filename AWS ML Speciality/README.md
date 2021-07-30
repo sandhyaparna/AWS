@@ -4,6 +4,7 @@
 * AWS Training material/Videos: https://www.aws.training/
 * https://www.capitalone.com/tech/machine-learning/advice-for-taking-the-aws-machine-learning-specialty-exam/
 * https://github.com/PacktPublishing/AWS-Certified-Machine-Learning-Specialty-MLS-C01-Certification-Guide
+* https://jayendrapatil.com/aws-certified-machine-learning-specialty-mls-c01-exam-learning-path/
 
 
 
