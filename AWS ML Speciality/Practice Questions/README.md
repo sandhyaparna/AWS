@@ -4,3 +4,4 @@
 * Free with kindle unlimited https://www.amazon.com/Certified-Machine-Learning-Specialty-Practice-ebook/dp/B08BG6G4VF
 * The AWS Certification Quiz Show: Machine Learning - Specialty exam, Episode 1  https://www.aws.training/Details/Video?id=37281
 * The AWS Certification Quiz Show: Machine Learning - Specialty exam, Episode 2  https://www.aws.training/Details/Video?id=37285
+* https://www.testpreptraining.com/aws-certified-machine-learning-specialty-free-practice-test
