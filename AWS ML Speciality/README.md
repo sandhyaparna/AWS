@@ -10,3 +10,8 @@
 * Modeling (36%): CNN, RNN, Tuning neural networks, Regularization, Gradient descent method, L1 and L2 regularization, Confusion matrix (Precision, Recall, F1, AUC), Ensemble methods (Bagging and Boosting), Amazon Sagemaker, Amazon Algorithms (Linear Learner, XGBoost, Seq2Seq, BlazingText, DeepAR, Object2Vec, ObjectDetection, Image Classification, Semantic Segmentation, RCF, LDA, KNN, K-Means, PCA, Factorization Machine), and Amazon AI Services (Comprehend, Translate, Transcribe, Polly, Rekognition, Forecast, Lex etc).
 * ML Implementations and Operations (20%): SageMaker Production Variants, Neo, IoT Greengrass, Encryption at Rest and in Transit, VPC, IAM, Logging, Monitoring, Instance Types and Spot Instances, Elastic Inference, Auto-Scaling, Availability Zones, Inference Pipelines etc
 
+### White Papers
+* https://d1.awsstatic.com/whitepapers/machine-learning-foundations.pdf
+* https://d1.awsstatic.com/whitepapers/Deep_Learning_on_AWS.pdf?did=wp_card&trk=wp_card
+* https://d0.awsstatic.com/whitepapers/whitepaper-streaming-data-solutions-on-aws-with-amazon-kinesis.pdf
+* https://d1.awsstatic.com/whitepapers/aws-power-ml-at-scale.pdf?did=wp_card&trk=wp_card
