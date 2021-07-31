@@ -1,14 +1,3 @@
-### AWS ML Course/Training/Content
-* AWS ML Training https://www.aws.training/Details/eLearning?id=42183
-* AWS ML Content https://www.aws.training/LearningLibrary?query=&filters=Domain%3A30%20Language%3A1&from=0&size=15&sort=_score
-* AWS Training material/Videos: https://www.aws.training/
-* https://www.capitalone.com/tech/machine-learning/advice-for-taking-the-aws-machine-learning-specialty-exam/
-* https://github.com/PacktPublishing/AWS-Certified-Machine-Learning-Specialty-MLS-C01-Certification-Guide
-* https://jayendrapatil.com/aws-certified-machine-learning-specialty-mls-c01-exam-learning-path/
-* https://app.pluralsight.com/paths/certificate/aws-certified-machine-learning-speciality
-
-
-
 ### Topics covered during the Machine Learning AWS - Specialty exam
 * Data Engineering (20%): S3 (and VPC Endpoint Gateway), Kinesis (Streams, FireHose, Data Analytics, Video), Glue (Data Catalog and Crawler), Athena, AWS Data Stores (Redshift, RDS/Aurora, DynamoDB, ElasticSearch, ElastiCache), AWS Data Pipelines, AWS Batch, AWS DMS, and AWS Step Functions.
 * Exploratory Data Analysis (24%): Data Types and Distribution, Time Series, Amazon Athena, Quicksight, Ground Truth, EMR, Spark, Data binning, Transforming, Encoding, Scaling and Shuffling, Dealing with Missing data, Imbalanced data, and Outliers.
@@ -24,8 +13,23 @@
 ### Jupyter Notebook Exercises
 * https://github.com/aws/amazon-sagemaker-examples
 
+### AWS Sources
+* Exam Readiness: AWS Certified Machine Learning - Specialty https://www.aws.training/Details/eLearning?id=42183
+* AWS ML Training Library https://www.aws.training/LearningLibrary?query=&filters=Domain%3A30%20Language%3A1&from=0&size=15&sort=_score
+* AWS ML Developer Documentation https://docs.aws.amazon.com/machine-learning/latest/dg/what-is-amazon-machine-learning.html
+* AWS SageMaker Developer Documenation https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
+* AWS SageMaker Developer Guide https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-dg.pdf
+
 ### White Papers
 * https://d1.awsstatic.com/whitepapers/machine-learning-foundations.pdf
 * https://d1.awsstatic.com/whitepapers/Deep_Learning_on_AWS.pdf?did=wp_card&trk=wp_card
 * https://d0.awsstatic.com/whitepapers/whitepaper-streaming-data-solutions-on-aws-with-amazon-kinesis.pdf
 * https://d1.awsstatic.com/whitepapers/aws-power-ml-at-scale.pdf?did=wp_card&trk=wp_card
+
+### Blogs on ML Certification Prep
+* https://www.capitalone.com/tech/machine-learning/advice-for-taking-the-aws-machine-learning-specialty-exam/
+* https://github.com/PacktPublishing/AWS-Certified-Machine-Learning-Specialty-MLS-C01-Certification-Guide
+* https://jayendrapatil.com/aws-certified-machine-learning-specialty-mls-c01-exam-learning-path/
+
+
+
