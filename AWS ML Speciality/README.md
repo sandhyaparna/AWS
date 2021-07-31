@@ -21,6 +21,9 @@
 * https://healthedge.udemy.com/course/amazon-web-services-machine-learning/learn/lecture/17244940?learning_path_id=1457770#overview
 * https://app.pluralsight.com/paths/certificate/aws-certified-machine-learning-speciality
 
+### Jupyter Notebook Exercises
+* https://github.com/aws/amazon-sagemaker-examples
+
 ### White Papers
 * https://d1.awsstatic.com/whitepapers/machine-learning-foundations.pdf
 * https://d1.awsstatic.com/whitepapers/Deep_Learning_on_AWS.pdf?did=wp_card&trk=wp_card
