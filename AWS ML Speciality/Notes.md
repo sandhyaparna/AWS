@@ -5,6 +5,9 @@
 * https://blog.mestwin.net/amazon-s3-in-a-nutshell-words-aws-solutions-architect-associate-exam-review/
 
 ### Kinesis
+* Recognize customers in a store
+![](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2018/04/06/AmazonRekVideo-cs-2.gif) </br>
+
 
 
 
