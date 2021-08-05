@@ -1,3 +1,14 @@
+### S3
+* slides 4 -16: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AWSCertifiedMLSlides.pdf
+* slides 123 - 165: https://github.com/sandhyaparna/AWS/blob/master/AWS%20Cloud%20Practitioner/AWS%20Certified%20Cloud%20Practitioner%20Slides%20v2.3.2.pdf
+* slides 65 - 92: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AMSMLCompressed.pdf
+* https://blog.mestwin.net/amazon-s3-in-a-nutshell-words-aws-solutions-architect-associate-exam-review/
+
+### Kinesis
+
+
+
+
 ### 
 * Database is specifically for Online Transaction Processing. Within each database, data is organized into tables and columns. Within each column, you can define a description of the data, such as integer, data field, or string. Tables can be organized inside of schemas, which you can think of as folders. When data is ingested, it is stored in various tables described by the schema. Query tools use the schema to determine which data tables to access and analyze.
 * Data Warehouse is specifically for Online Analytical Processing. Data flows into a data warehouse from transactional systems, relational databases, and other sources, typically on a regular cadence. It consolidates data from many sources. 
