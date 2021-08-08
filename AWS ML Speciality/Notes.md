@@ -6,7 +6,7 @@
 
 ### Kinesis
 * slides 17 - 31: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AWSCertifiedMLSlides.pdf
-* slides 143 - 184: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AMSMLCompressed.pdf
+* slides 143 - 185: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AMSMLCompressed.pdf
 * Recognize customers in a store https://aws.amazon.com/blogs/machine-learning/improve-your-customer-service-using-amazon-kinesis-video-streams-and-amazon-rekognition-video/
 ![](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2018/04/06/AmazonRekVideo-cs-2.gif) </br>
 ![](https://s3.amazonaws.com/brainpower-aws-blogs/artifacts/fidgetology-demo-app/attachments/Brain_Power_fidgetology_02__SystemArchitectureDiagram.png) </br>
