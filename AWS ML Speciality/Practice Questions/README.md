@@ -9,3 +9,5 @@
 * Full Length https://healthedge.udemy.com/course/aws-machine-learning-practice-exam/learn/quiz/4713752?learning_path_id=1612896#overview
 * https://healthedge.udemy.com/course/aws-certified-machine-learning-specialty-full-practice-exams/learn/quiz/4755118#overview
 * https://healthedge.udemy.com/course/aws-machine-learning-a-complete-guide-with-python/learn/quiz/4774522#overview
+* DA Sample Questions https://d1.awsstatic.com/training-and-certification/docs-data-analytics-specialty/AWS-Certified-Data-Analytics-Specialty_Sample-Questions_v.1.1_FINAL.pdf
+* 
