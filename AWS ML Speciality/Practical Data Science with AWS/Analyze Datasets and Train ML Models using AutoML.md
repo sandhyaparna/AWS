@@ -44,6 +44,7 @@
 * Feature Importance
 
 ### Amazon SageMaker Clarify - Python library
+* https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Practical%20Data%20Science%20with%20AWS/Jupyter%20Notebooks/02_Biased_Reports_SageMaker_Clarify.ipynb
 * SageMakerClarifyProcessor is a construct/component/function that allows you to **scale the bias detection process into a distributed cluster**. By using two parameters, instance type and instance count, you can scale up the distributed cluster to the capacity that you need. Instant count represents the number of nodes that are included in the cluster, and instance type represents the processing capacity of each individual node in the cluster.
 * Bias report output path is the location to save bias report in S3 - Detailed report Imbalanced Data: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Images/Statistical%20Bias%20Report.pdf </br>
 On Balanced data: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Images/Statistical%20Bias%20Report%20on%20Balanced%20Data.pdf
@@ -61,7 +62,7 @@ On Balanced data: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Spe
   * Detecting drift in data and models
 
 ### Bias Detection
-* Using AWS Data Wrangler and Amazon SageMaker Clarify 
+* Using AWS Data Wrangler and Amazon SageMaker Clarify https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Practical%20Data%20Science%20with%20AWS/Jupyter%20Notebooks/02_Biased_Reports_SageMaker_Clarify.ipynb
 * Detection Methods: https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-measure-data-bias.html
   * Count of different groups within a feature - CI Class Imbalance
   * Count of different groups with respect to the Target groups - DPL
