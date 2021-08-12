@@ -20,6 +20,7 @@
 * AWS SageMaker Developer Documenation https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
 * AWS SageMaker Developer Guide https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-dg.pdf
 * ML on AWS https://aws.amazon.com/machine-learning/
+* MLOps Framework https://docs.aws.amazon.com/solutions/latest/aws-mlops-framework/welcome.html
 
 ### White Papers
 * https://d1.awsstatic.com/whitepapers/machine-learning-foundations.pdf
