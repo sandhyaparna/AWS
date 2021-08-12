@@ -45,7 +45,8 @@
 
 ### Amazon SageMaker Clarify - Python library
 * SageMakerClarifyProcessor is a construct/component/function that allows you to **scale the bias detection process into a distributed cluster**. By using two parameters, instance type and instance count, you can scale up the distributed cluster to the capacity that you need. Instant count represents the number of nodes that are included in the cluster, and instance type represents the processing capacity of each individual node in the cluster.
-* Bias report output path is the location to save bias report in S3 - Detailed report https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Images/Statistical%20Bias%20Report.pdf
+* Bias report output path is the location to save bias report in S3 - Detailed report Imbalanced Data: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Images/Statistical%20Bias%20Report.pdf </br>
+On Balanced data: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Images/Statistical%20Bias%20Report%20on%20Balanced%20Data.pdf
 * DataCaonfig object represents details about the data. It has input and output location of your data on S3, label
 * BiasConfig captures the interested features that we want to look at to evaluate bias or imbalnces 
 * All the objects objects are passed as parameters into run_pre_training_bias object/function. Methods used to evaluate can be mentioned
