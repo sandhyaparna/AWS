@@ -40,16 +40,17 @@
 ### AWS Data Wrangler - Python library
 * Visualization
 * Transform
-* Statistical Bias Report
+* Statistical Bias Report - Visualizable format - Wrangler uses only subset of data to detect bias
 * Feature Importance
 
 ### Amazon SageMaker Clarify - Python library
 * SageMakerClarifyProcessor is a construct/component/function that allows you to **scale the bias detection process into a distributed cluster**. By using two parameters, instance type and instance count, you can scale up the distributed cluster to the capacity that you need. Instant count represents the number of nodes that are included in the cluster, and instance type represents the processing capacity of each individual node in the cluster.
-* Bias report output path is the location to save bias report in S3
+* Bias report output path is the location to save bias report in S3 - Detailed report https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Images/Statistical%20Bias%20Report.pdf
 * DataCaonfig object represents details about the data. It has input and output location of your data on S3, label
 * BiasConfig captures the interested features that we want to look at to evaluate bias or imbalnces 
 * All the objects objects are passed as parameters into run_pre_training_bias object/function. Methods used to evaluate can be mentioned
 * Once the configuration of the pre-training bias method is done, you launch this job. In the background, SageMaker Clarify is using a construct called SageMaker Processing Job to execute the bias detection at scale.
+* Clarity is a scalable API
 * SageMaker Processing Jobs is a construct that allows you to perform any data-related tasks at scale. These tasks could be executing pre-processing, or post-processing tasks, or even using data to evaluate your model.
 ![](https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Images/Amazon%20SageMaker%20Processing%20Job.PNG)
 * Amazon SageMaker Clarify is used for 
@@ -59,8 +60,8 @@
   * Detecting drift in data and models
 
 ### Bias Detection
-* Using AWS Data Wrangler and Amazon SageMaker Clarify
-* Detection Methods:
+* Using AWS Data Wrangler and Amazon SageMaker Clarify 
+* Detection Methods: https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-measure-data-bias.html
   * Count of different groups within a feature - CI Class Imbalance
   * Count of different groups with respect to the Target groups - DPL
 * Statistical Bias: Some elements/groups are more heavily weighted or represented. Imbalanced in Target class or 
@@ -73,6 +74,11 @@
     * Concept drift: Sometimes the relationship between the two, that is the relationship between the features and the labels can change as well. It can happen when the definition of the label itself changes based on a particular feature like age or geographical location. Take, for example, my experience. Last time when we traveled a few years ago across US on a road trip, we quickly found out that the soft drinks are not called the same across US. So when we stopped for meals and ordered soft drinks, we realized that soda is not called soda across US. In some areas, it's called pop, and in some areas, it's called soda. Now, if you think about all the geographies across the world, you can only imagine the interesting combinations, different labels, you can come up with. 
 * It is really important to continuously monitor and detect various biases that could be prevalent in to your training datasets before and after you train your models.
 
+### Feature Importance
+* Feature importance is the idea of explaining the individual features that make up your training data set using a score called important score. 
+* How useful or valuable the feature is relative to other features
+* Uses SHAP framework - can create both local & global explanations
+* From SageMaker Studio, start a new Dataflow, connect data to S3 or Athena, select the data that we are interested to identify features importances based on a label, import the dataset - this will import data from S3 to data wrangler environment, add analysis, choose 'Quick Model' to do feature importance  and choose the label. When preview is hit, Data Wrangler is working in the background to create a quick model out of a subset of your data. It uses 70% of the subset of the data for training and 30% for test. It will build that quick model to analyze the F1 score and Data Wrangler calculates the feature importance score on data set. Behind the scene, Data Wrangler ran a Random Cut Forest algorithm on the subset of my data using 70% for training and 30% for testing. And it has calculated a quick model to give me the feature importance scores as well as the F1 score.     https://www.coursera.org/learn/automl-datasets-ml-models/lecture/lvtm4/feature-importance-shap
 
 
 
