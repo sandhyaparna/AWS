@@ -78,10 +78,13 @@ On Balanced data: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Spe
 
 ### Feature Importance
 * Feature importance is the idea of explaining the individual features that make up your training data set using a score called important score. 
-* How useful or valuable the feature is relative to other features
+* How useful or valuable the feature is relative to other features.
 * Uses SHAP framework - can create both local & global explanations
 * From SageMaker Studio, start a new Dataflow, connect data to S3 or Athena, select the data that we are interested to identify features importances based on a label, import the dataset - this will import data from S3 to data wrangler environment, add analysis, choose 'Quick Model' to do feature importance  and choose the label. When preview is hit, Data Wrangler is working in the background to create a quick model out of a subset of your data. It uses 70% of the subset of the data for training and 30% for test. It will build that quick model to analyze the F1 score and Data Wrangler calculates the feature importance score on data set. Behind the scene, Data Wrangler ran a Random Cut Forest algorithm on the subset of my data using 70% for training and 30% for testing. And it has calculated a quick model to give me the feature importance scores as well as the F1 score.     https://www.coursera.org/learn/automl-datasets-ml-models/lecture/lvtm4/feature-importance-shap
 
-
+### SageMaker Autopilot
+https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-automate-model-development.html </br>
+Autopilot includes performing data exploration, identifying the machine learning problem, selecting the algorithm based on the machine learning problem, transforming the data to get it into the format that is expected by your algorithm, and finally, training and performing hyperparameter tuning to find the optimal set of hyperparameters that result in the most performant model. In addition to covering the workflow steps and tasks that I highlighted, autopilot is also fully transparent, meaning it will automatically generate and share the feature engineering code, generate Jupiter notebooks that walk you through how the models were built. This includes the data processing as well as the algorithms, the hyperparameters, and the training configuration. You can then use those automatically generated notebooks to reproduce the same experiment or perform modifications to that example to continue to refine your model.
+![](https://docs.aws.amazon.com/sagemaker/latest/dg/images/Autopilot-process-graphic-1.png)
 
 
