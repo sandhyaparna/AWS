@@ -1,6 +1,11 @@
 ### Links
+* AWS Data Wrangler https://github.com/awslabs/aws-data-wrangler
 * AWS Glue: https://aws.amazon.com/glue/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
 * AWS Athena: https://aws.amazon.com/athena/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
+* Pre-training Bias Measurement https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-measure-data-bias.html
+* SHAP https://shap.readthedocs.io/en/latest/
+* SageMaker Auto-Pilot https://aws.amazon.com/sagemaker/autopilot/
+* Blazing Text https://docs.aws.amazon.com/sagemaker/latest/dg/blazingtext.html
 * 
 
 ### ML Workflow
