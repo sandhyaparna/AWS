@@ -5,6 +5,7 @@
  
 # Zip contents of the s3_bucket_data in SageMakeStudio console to a zipped folder and download the zipped folder
 # https://stackoverflow.com/questions/54931270/download-an-entire-folder-from-aws-sagemaker-to-laptop
+# RUN in TERMINAL
 sudo yum install zip unzip
 zip -r -X archived_folder_name.zip . # to zip all contents in studio console
 zip -r -X archived_folder_name.zip s3_bucket_data  # to zip contents of a specific folder only. in this eg s3_bucket_data is zipped 
