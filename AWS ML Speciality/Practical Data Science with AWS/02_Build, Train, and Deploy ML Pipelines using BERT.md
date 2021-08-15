@@ -22,7 +22,7 @@
   * fit the model
 
 ### Debug & profile models
-
+* List of built-in rules for debugiing: https://docs.aws.amazon.com/sagemaker/latest/dg/debugger-built-in-rules.html
 
 
 
