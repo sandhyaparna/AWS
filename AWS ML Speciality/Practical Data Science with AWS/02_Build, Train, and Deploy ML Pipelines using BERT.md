@@ -24,7 +24,8 @@
 ### Debug & profile models
 * List of built-in rules for debugiing: https://docs.aws.amazon.com/sagemaker/latest/dg/debugger-built-in-rules.html
 
-
+### SageMaker Pipelines
+![](https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Images/SageMaker%20Pipeline.PNG)
 
 
 
