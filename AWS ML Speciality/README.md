@@ -11,6 +11,7 @@
 * https://app.pluralsight.com/paths/certificate/aws-certified-machine-learning-speciality
 
 ### Jupyter Notebook Exercises
+* https://sagemaker-examples.readthedocs.io/en/latest/index.html
 * https://github.com/aws/amazon-sagemaker-examples
 
 ### AWS Sources
