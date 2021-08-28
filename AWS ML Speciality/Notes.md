@@ -1,6 +1,6 @@
 ### S3
-* slides 4 -16: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AWSCertifiedMLSlides.pdf
 * slides 123 - 165: https://github.com/sandhyaparna/AWS/blob/master/AWS%20Cloud%20Practitioner/AWS%20Certified%20Cloud%20Practitioner%20Slides%20v2.3.2.pdf
+* slides 4 -16: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AWSCertifiedMLSlides.pdf
 * slides 65 - 92: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AMSMLCompressed.pdf
 * https://blog.mestwin.net/amazon-s3-in-a-nutshell-words-aws-solutions-architect-associate-exam-review/
 
@@ -11,8 +11,27 @@
 ![](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2018/04/06/AmazonRekVideo-cs-2.gif) </br>
 ![](https://s3.amazonaws.com/brainpower-aws-blogs/artifacts/fidgetology-demo-app/attachments/Brain_Power_fidgetology_02__SystemArchitectureDiagram.png) </br>
 
-### AI Services
-* 
+### Databases, Glue, Athena, QuickSIght, EMR
+* slides 166 - 193: https://github.com/sandhyaparna/AWS/blob/master/AWS%20Cloud%20Practitioner/AWS%20Certified%20Cloud%20Practitioner%20Slides%20v2.3.2.pdf
+* slides 32 - 54, 80 - 123: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AWSCertifiedMLSlides.pdf
+* slides 40 - 57, 94 - 96, 104 - 133, 233 - 288: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AMSMLCompressed.pdf
+
+### Exploratory Data Analysis
+* slides 55 - 79, 124 - 160: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AWSCertifiedMLSlides.pdf
+* slides 196 - 225, 297 - 377 : https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AMSMLCompressed.pdf
+
+### Modeling
+* slides 162 - 233: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AWSCertifiedMLSlides.pdf
+* slides 387 - 445, 453 - 524: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AMSMLCompressed.pdf
+
+### SageMaker
+* slides 234 - 420: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AWSCertifiedMLSlides.pdf
+* slides 532 - 746 : https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AMSMLCompressed.pdf
+
+### MLOps
+* slides 195 - 216, 278 - 290 : https://github.com/sandhyaparna/AWS/blob/master/AWS%20Cloud%20Practitioner/AWS%20Certified%20Cloud%20Practitioner%20Slides%20v2.3.2.pdf
+* slides 421 - 450: https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AWSCertifiedMLSlides.pdf
+* slides 759 - 819 : https://github.com/sandhyaparna/AWS/blob/master/AWS%20ML%20Speciality/Slides/AMSMLCompressed.pdf
 
 
 ##### Database
