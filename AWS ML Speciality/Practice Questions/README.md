@@ -18,8 +18,8 @@
 * Instance Segmentation - Autonomous vehicle model
 * When model takes too long to converge: Normalize data before sending or batch normalization
 * Aws Sagemaker tuning jobs to tune hyperparameters
-* Glue can convert data to parquet
-* Firehose can convert JSON data to ORC or paquet format
+* Glue can convert data to parquet format
+* Firehose can convert from csv or json to to parquet or ORC and also supports compression
 * Advantages of Edge:
   * ML models will run upto 2x better performance
   * Required framework memory is reduced 10x
