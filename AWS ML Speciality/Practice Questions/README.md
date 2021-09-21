@@ -27,7 +27,7 @@
 * AWS IoT Greengrass:
   * works offline
   * Respond to local events in near real-time
-* Putobject is a legal API call
+* GetObject, Putobject arelegal API calls
 * One should always use AES256 encryption and wildcards are allowed in JSON policies
 * MoveObject API call is illegal
 * Number of mosquito bites - poisson Distribution
@@ -37,6 +37,12 @@
 * For notebooks in VPC - create Amazon sagemaker VPC interface endpoints within the corporate VPC
 * ML code in DocerFile to run own algo: COPY and ENTRYPOINT
 * Install Docker compose for local training on his laptop
+* U pay for compute, storage and transfer out of cloud
+* AWS global services: IAM, CloudFront, etc
+* Customer is responsible for OS< Network, firewall construction, client-side encrytion, server-side encryption, Networking traffic protection
+* To access AWS: AWS Mgmt Console, AWS CLI (Command Line Interface), AWS SDK (Software Development Kit)
+* IAM Access Advisor
+* Bootstrap EC2 instances using EC2 User data script
 * 
 
 ![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Streams.074de94302fd60948e1ad070e425eeda73d350e7.png)
