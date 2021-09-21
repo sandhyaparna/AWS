@@ -18,8 +18,28 @@
 * Instance Segmentation - Autonomous vehicle model
 * When model takes too long to converge: Normalize data before sending or batch normalization
 * Aws Sagemaker tuning jobs to tune hyperparameters
+* Glue can convert data to parquet
+* Firehose can convert JSON data to ORC or paquet format
+* Advantages of Edge:
+  * ML models will run upto 2x better performance
+  * Required framework memory is reduced 10x
+  * ML model can run on multiple hardware platforms
+* AWS IoT Greengrass:
+  * works offline
+  * Respond to local events in near real-time
+* Putobject is a legal API call
+* One should always use AES256 encryption and wildcards are allowed in JSON policies
+* MoveObject API call is illegal
+* Number of mosquito bites - poisson Distribution
+* prob of person contacting a disease - Binomial
+* freq functions for IDF - Smoth, Probabilistic, Standard
+* Algos that support pipe input mode and recordIO protobuf are PCA, K-means, Factorization machines, LDA, Neural Topic modeling, Linear Learner, Randomcut forest
+* For notebooks in VPC - create Amazon sagemaker VPC interface endpoints within the corporate VPC
+* ML code in DocerFile to run own algo: COPY and ENTRYPOINT
+* Install Docker compose for local training on his laptop
 * 
 
+![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Streams.074de94302fd60948e1ad070e425eeda73d350e7.png)
 
 
 
