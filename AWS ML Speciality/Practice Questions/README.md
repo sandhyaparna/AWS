@@ -89,7 +89,10 @@
   * AWS CloudTrail to audit requests made to the service
   * AWS Data Pipeline to schedule and start your clusters
 * Spark components: Spark Streaming, Spark SQL, MLLib, GraphX
+* To decrease FPs, increase threshold - guarnateed to reduce FPs, but might inc FNs
 * 
+
+
 
 ![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Streams.074de94302fd60948e1ad070e425eeda73d350e7.png)
 
