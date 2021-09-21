@@ -18,8 +18,10 @@
 * Instance Segmentation - Autonomous vehicle model
 * When model takes too long to converge: Normalize data before sending or batch normalization
 * Aws Sagemaker tuning jobs to tune hyperparameters
-* Glue can convert data to parquet format
-* Firehose can convert from csv or json to to parquet or ORC and also supports compression
+* Glue can convert data to parquet format. It integrates with both Athena & redshift spectrum. Runs spark or scala or pyspark code
+* Firehose can convert from csv or json to to parquet or ORC (columnar data) and also supports compression
+* Kinesis Data Analytics and Athena use SQL
+* Kinesis Data Analytics ML algos: Random cut forest, hotspots
 * Advantages of Edge:
   * ML models will run upto 2x better performance
   * Required framework memory is reduced 10x
@@ -66,7 +68,7 @@
 * AWS API gateway: get requests from client side
 * RDS, Aurora (postgres-sql, mysql), Elasticache, Redshift, Athena, Redshift spectrum, Dynamo DB, Dynamo Accelerator, Document DB (mango DB), EMR, Neptune, Quicksight, QLDB, Blockchain, Dabase Migration Service
 * Glue: ETL
-* Batch: Non-ETL jobs, require docker image
+* Batch: Non-ETL jobs, require docker image. schedule batch jobs using cloudwatch events and orchestrate batch jobs using AWS step functions
 * Docker: Dokcerfile, Image, Container. Docker Deamon contains many containers on 1 server
 * To launch docker containers on AWS EC2 instances: ECS , Fargate, 
 * Lambda: function as a service, serverless, run on-demand, only short executions that are event driven, runs CRON scheduled jobs, increase allocated memory and timeout upto 15mins. API gateway is to expose lambda functions as http api
@@ -74,8 +76,19 @@
 * Cloudwatch logs: real-time monitoring of logs
 * Cloudwatch Events: cron jobs, events rules to react to a service, trigger lambda functions
 * CloudTrail: governance, compliance and audit for aws account, can put logs from CloudTrail into CloudWatch logs
-* 
-* 
+* Data Pipeline is a Orchestration service and Allows access to EC2 or EMR instances (creates resources in your own
+* Quicksight can be used for forecasting, auto narratives, anomaly detection using random cut forest
+* SPICE is quick sight's in-memory calculation engine
+* To connect quicksight using VPC, add quicksight's IP address range to your database security groups
+* EMR / AWS Integration - EMR helps creating Hadoop clusters (Big Data) to analyze and process vast amount of data
+  * Amazon EC2 for the instances that comprise the nodes in the cluster
+  * Amazon VPC to configure the virtual network in which you launch your instances
+  * Amazon S3 to store input and output data
+  * Amazon CloudWatch to monitor cluster performance and configure alarms
+  * AWS IAM to configure permissions
+  * AWS CloudTrail to audit requests made to the service
+  * AWS Data Pipeline to schedule and start your clusters
+* Spark components: Spark Streaming, Spark SQL, MLLib, GraphX
 * 
 
 ![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Streams.074de94302fd60948e1ad070e425eeda73d350e7.png)
