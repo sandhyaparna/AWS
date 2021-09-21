@@ -11,3 +11,29 @@
 * https://www.braincert.com/course/22419-AWS-Certified-Machine-Learning-%E2%80%93-Specialty-Practice-Exams
 * https://www.testpreptraining.com/aws-certified-machine-learning-specialty-free-practice-test
 * https://www.whizlabs.com/learn/course/aws-certified-machine-learning-specialty/281/quiz/15001/practice/start
+
+### Key notes from practice exams
+* When batch size should be decreased, decrease the learning rate also. similarity when they have to increase
+* object2vec to vectorize sentences
+* Instance Segmentation - Autonomous vehicle model
+* When model takes too long to converge: Normalize data before sending or batch normalization
+* Aws Sagemaker tuning jobs to tune hyperparameters
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
