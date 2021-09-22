@@ -139,6 +139,18 @@ can be encrypted with a KMS key
 * Transform method is called to get inference for an entire data set using batch transform job. The predict method is used for real time inference. The deploy method is used to deploy the trained model to an Amazon SageMaker endpoint. The fit method is used to train a model using the input training dataset.
 * SageMaker does not support resource-based policies and service-linked roles. Amazon SageMaker supports authorization based on resource tags. 
 * After calling the create_training_job() method to start the training job, you would like to get a status about the progress of the training job, use decribe_training_job
+* XML is semi-structured data
+* S3 select to download JPEG files
+* Policies to create object tags: IAM policies and S3 life cycle policies
+* Enabling inter-container traffic increases training time when using distributed deep learning algos
+* Use VPC endpoint to increase security
+* AWS data pipeline from RDS to redshift, DynamoDB to S3, 1 database/datwarehouse/datalake to another
+* Glue can run python scripts on python shell
+* Kinesis API to reduce data processing time while using AWS kinesis data streams to stream data
+* seq2seq for spell check
+* Factorization machines for header of the email
+* To run sagemaker spark application on EMR, use spark application jar
+* If models's training loss has remained same after a few epochs, it might have reached local miminma, so dec learning rate and batch size
 * 
 
 ![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Streams.074de94302fd60948e1ad070e425eeda73d350e7.png)
