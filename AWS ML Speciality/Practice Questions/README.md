@@ -51,6 +51,13 @@
   * Compute Optimized: batch processing workloads, High performance computing, scientific modeling & ML, Gaming Servers - C. High performance computing (HPC), batch processing, ad serving, video encoding, gaming, scientific modelling, distributed analytics, and CPU-based machine learning inference.
   * Memory optimized: web scale caching store, High RDs, In memory Bi, rela-time processing of big unstructured data. Memory-intensive applications such as open-source databases, in-memory caches, and real time big data analytics
   * Storage Optimized: OLTP, Relational & No-SQL databases, cache for in-memory database, Distributed file system. NoSQL databases (e.g. Cassandra, MongoDB, Redis), in-memory databases (e.g. Aerospike), scale-out transactional databases, data warehousing, Elasticsearch, analytics workloads.
+* Accelerated computing family (P and G type instances) come with GPUs, and these are ideal for algorithms that are optimized for GPUs.
+* General Purpose family are some of the lowest cost instances and offer balanced performance and memory configuration (T and M type instances).
+* Compute Optimized family comes with the latest generation CPUs and is a higher performance system. These are suitable for CPU intensive model training and hosting (C type instances). 
+* Memory-optimized family are optimized for workloads that process large datasets in memory (R type instances). 
+* Besides, the sagemaker also has Elastic Inference Acceleration (partial GPUs) that provides fractional GPU capacity at a fraction of the cost of accelerated computing family. 
+
+Elastic inference Acceleration is suitable for inference workloads that can benefit from GPUs and can be easily added to other instance families.
 * Security groups are acting as a “firewall” on EC2 instances
 * IAM and bucket policies for S#. Bucket policies for public access and cross account access
 * EC2 Instances Purchasing Options
