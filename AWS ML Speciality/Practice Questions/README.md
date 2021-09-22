@@ -22,7 +22,7 @@
 * Firehose can convert from csv or json to to parquet or ORC (columnar data) and also supports compression
 * Kinesis Data Analytics and Athena use SQL
 * Kinesis Data Analytics ML algos: Random cut forest, hotspots
-* Advantages of Edge:
+* Advantages of Neo:
   * ML models will run upto 2x better performance
   * Required framework memory is reduced 10x
   * ML model can run on multiple hardware platforms
@@ -70,7 +70,11 @@
 * Glue: ETL
 * Batch: Non-ETL jobs, require docker image. schedule batch jobs using cloudwatch events and orchestrate batch jobs using AWS step functions
 * Docker: Dokcerfile, Image, Container. Docker Deamon contains many containers on 1 server
-* To launch docker containers on AWS EC2 instances: ECS , Fargate, 
+* Training container: opt/ml: input, output, model, code
+* Deployement container: opt/ml/model
+* Structure of your Docker image: nginx.conf, wsgi.py, train, serve, predictor.py
+* Copies the training code inside the container COPY train.py /opt/ml/code/train.py, # Defines train.py as script entrypoint ENV SAGEMAKER_PROGRAM train.py
+* To launch docker containers on AWS EC2 instances: ECS , Fargate
 * Lambda: function as a service, serverless, run on-demand, only short executions that are event driven, runs CRON scheduled jobs, increase allocated memory and timeout upto 15mins. API gateway is to expose lambda functions as http api
 * Batch: Batch processing at scale, to run many computing jobs, relies on EBS/instance store for disk space
 * Cloudwatch logs: real-time monitoring of logs
@@ -90,9 +94,37 @@
   * AWS Data Pipeline to schedule and start your clusters
 * Spark components: Spark Streaming, Spark SQL, MLLib, GraphX
 * To decrease FPs, increase threshold - guarnateed to reduce FPs, but might inc FNs
-* 
-
-
+* Dataprep for SageMaker: RecordIO / Protobuf
+  * Training requires input path, output path, model(ECR path that has training image), compute resource
+* Deployement: Inference pipelines, Elastic Inference, Sagemaker Neo, Auto scaling
+* Ways to deploy: Persistent endpoint for making individual predictions on demand, SageMaker Batch Transform to get predictions for an entire dataset
+* Linear Learner: RecordIO wrapped protobuf - Float32 data only!, File or pipe mode, first column contains label and variable names should not be headers, CPU is preferred
+* XGBoost: So, it takes CSV or libsvm input, RecordIO wrapped protobuf, parquet; only CPU
+* Seq2Seq: RecordIO Protobuf (tokens must be integers); Must provide training data, validation data, and vocabulary files; GPUs on a single machine. Embedding layer, Encoder, Decoder
+* DeepAR: JSON, Gzip or parquet; record should contain start time stamp, target - time series values, can use CPU or GPU
+* Blazing Text: __label__ followed by the label and tokenized text; word2vec modes: CBOW, skip-gram, batch skip-gram (distributed computation - multiple CPU)
+* Object2Vec: Compute nearest neighbors of objects, data is tokenized to integers. JSON lines; 2 encoders ( Avg pooled embeddings, CNNs, Bi-directional LSTM) passed through camparator and then feed forward NN
+* Object Detection: boxes, Uses a CNN with the Single Shot multibox Detector (SSD) algorithm. GPU
+* Semantic Segmentation: 3 algos- Fully Convolutional Network, pyramid Scene Parsing, DeepLabv3, Backbones - ResNet50, ResNet101
+* Factorization machines: RecordIO wrapped protobuf - Float32, recommender systems
+* Spark & SageMaker: Use sagemaker spark library, SageMakerEstimator. Call fit on your SageMakerEstimator to get a SageMakerModel; Call transform on the SageMakerModel to make inferences
+* SageMaker Debugger: Monitor system bottlenecks, Profile model framework operations, Debug model parameters
+* Data must be tabular CSV for SageMaker Autopilot
+* SageMaker Model Monitor: Visualize data drift, Detect anomalies & outliers, Detect new features, Drift in model quality, Bias drift, Feature attribution drift
+* Amazon Transcribe: Speaker Identificiation, Channel Identification, Custom Vocabularies
+* Amazon Polly: Lexicons, SSML (Speech Synthesis Markup Language), Speech Marks
+* Rekognition: Computer vision, Object and scene detection, Can use your own face collection, Image moderation, Facial analysis, Celebrity recognition, Face comparison, Text in image, Video analysis
+* DeepLens: Deep learning enabled video camera Integrated with Rekognition , SageMaker , Polly, Tensorflow , MXNet , Caffe
+* Contact Lens for Amazon Connect: For customer support call centers
+* Amazon Kendra: Enterprise search with natural language
+* Amazon Augmented AI (A2I): Very similar to Ground Truth
+* AWS Security: IAM, MFA> SSL/TLS, cloud train, encryption, be careful with PHI
+* KMS is accepted by notebooks and all SageMaker jobs. Training, tuning, batch transform, endpoints Notebooks and everything under /opt/ml/ and / tmp
+can be encrypted with a KMS key
+* AWS S3 encryption is used to encrypt S3 buckets for training data and hosting models
+* Protecting Data in Transit in SageMaker: TLS, inter container traffic encryption, 
+* For VPC, it needs an interface endpoint ( PrivateLink ) or NAT Gateway, and allow outbound connections, for training and hosting to work
+* Predefined policies: AmazonSageMakerReadOnly, AmazonSageMakerFullAccess, AdministratorAccess, DataScientist
 
 ![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Streams.074de94302fd60948e1ad070e425eeda73d350e7.png)
 
