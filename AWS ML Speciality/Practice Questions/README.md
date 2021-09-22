@@ -153,7 +153,7 @@ can be encrypted with a KMS key
 * If models's training loss has remained same after a few epochs, it might have reached local miminma, so dec learning rate and batch size
 * FP/Precision - Type I error; Recall/FN - Type II error
 * For deployed models that should have high avilability, keep the endpoint product variant value of initialInstatanceCount to atleast 2
-* 
+* Where does SageMaker's automatic scaling get the data it needs to determine how many endpoints you need? CloudWatch
 
 ![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Streams.074de94302fd60948e1ad070e425eeda73d350e7.png)
 
