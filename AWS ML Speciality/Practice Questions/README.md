@@ -134,6 +134,9 @@ can be encrypted with a KMS key
 * Predefined policies: AmazonSageMakerReadOnly, AmazonSageMakerFullAccess, AdministratorAccess, DataScientist
 * Incremental Training: to train a new model using an expanded dataset that contains an underlying pattern that was not accounted for in the previous training and which resulted in poor model performance
 * PCA can be run in regular or randomized mode
+* Transform method is called to get inference for an entire data set using batch transform job. The predict method is used for real time inference. The deploy method is used to deploy the trained model to an Amazon SageMaker endpoint. The fit method is used to train a model using the input training dataset.
+* SageMaker does not support resource-based policies and service-linked roles. Amazon SageMaker supports authorization based on resource tags. 
+* After calling the create_training_job() method to start the training job, you would like to get a status about the progress of the training job, use decribe_training_job
 * 
 
 ![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Streams.074de94302fd60948e1ad070e425eeda73d350e7.png)
