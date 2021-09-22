@@ -114,6 +114,8 @@ Elastic inference Acceleration is suitable for inference workloads that can bene
 * Object Detection: boxes, Uses a CNN with the Single Shot multibox Detector (SSD) algorithm. GPU
 * Semantic Segmentation: 3 algos- Fully Convolutional Network, pyramid Scene Parsing, DeepLabv3, Backbones - ResNet50, ResNet101
 * Factorization machines: RecordIO wrapped protobuf - Float32, recommender systems
+* KNN: sample, dimensionality reduction, indexing
+* K-Means: K, feature_dim
 * Spark & SageMaker: Use sagemaker spark library, SageMakerEstimator. Call fit on your SageMakerEstimator to get a SageMakerModel; Call transform on the SageMakerModel to make inferences
 * SageMaker Debugger: Monitor system bottlenecks, Profile model framework operations, Debug model parameters
 * Data must be tabular CSV for SageMaker Autopilot
