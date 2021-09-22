@@ -132,6 +132,9 @@ can be encrypted with a KMS key
 * Protecting Data in Transit in SageMaker: TLS, inter container traffic encryption, 
 * For VPC, it needs an interface endpoint ( PrivateLink ) or NAT Gateway, and allow outbound connections, for training and hosting to work
 * Predefined policies: AmazonSageMakerReadOnly, AmazonSageMakerFullAccess, AdministratorAccess, DataScientist
+* Incremental Training: to train a new model using an expanded dataset that contains an underlying pattern that was not accounted for in the previous training and which resulted in poor model performance
+* PCA can be run in regular or randomized mode
+* 
 
 ![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Streams.074de94302fd60948e1ad070e425eeda73d350e7.png)
 
