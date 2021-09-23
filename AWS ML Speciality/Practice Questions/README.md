@@ -146,7 +146,7 @@ can be encrypted with a KMS key
 * Use VPC endpoint to increase security
 * AWS data pipeline from RDS to redshift, DynamoDB to S3, 1 database/datwarehouse/datalake to another
 * Glue can run python scripts on python shell
-* Kinesis API to reduce data processing time while using AWS kinesis data streams to stream data
+* Kinesis API to reduce data processing time while using AWS kinesis data streams to stream data. Kinesis Producer library to provide built-in performance benefits and ease of use on the client side, to achieve high write throughput with reliability
 * seq2seq for spell check
 * Factorization machines for header of the email
 * To run sagemaker spark application on EMR, use spark application jar
@@ -154,6 +154,9 @@ can be encrypted with a KMS key
 * FP/Precision - Type I error; Recall/FN - Type II error
 * For deployed models that should have high avilability, keep the endpoint product variant value of initialInstatanceCount to atleast 2
 * Where does SageMaker's automatic scaling get the data it needs to determine how many endpoints you need? CloudWatch
+* Kinesis Data streams putrecord api uses name of the stream, partition key & the data blob whereas Kinesis Data Firehose PutRecord API uses the name of the delivery stream and the data record
+* Image classification, Object Detection, Semantic segmentation support incremental training
+* Only Tensorflow and MXNet SageMaker containers support network isolation
 
 ![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Streams.074de94302fd60948e1ad070e425eeda73d350e7.png)
 
