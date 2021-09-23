@@ -20,6 +20,7 @@
 * Aws Sagemaker tuning jobs to tune hyperparameters
 * Glue can convert data to parquet format. It integrates with both Athena & redshift spectrum. Runs spark or scala or pyspark code
 * Firehose can convert from csv or json to to parquet or ORC (columnar data) and also supports compression
+* Glue or firehose cannot convert to record Io protobuf or libsvm, spark can help, in EMR or in sagemaker notebooks
 * Kinesis Data Analytics and Athena use SQL
 * Kinesis Data Analytics ML algos: Random cut forest, hotspots
 * Advantages of Neo:
