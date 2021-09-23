@@ -16,7 +16,7 @@
 * When batch size should be decreased, decrease the learning rate also. similarity when they have to increase
 * object2vec to vectorize sentences
 * Instance Segmentation - Autonomous vehicle model
-* When model takes too long to converge: Normalize data before sending or batch normalization
+* When model takes too long to converge: Normalize data before sending or batch normalization, sometimes it can be due to activation function leading to vanishing gradient problem
 * Aws Sagemaker tuning jobs to tune hyperparameters
 * Glue can convert data to parquet format. It integrates with both Athena & redshift spectrum. Runs spark or scala or pyspark code
 * Firehose can convert from csv or json to to parquet or ORC (columnar data) and also supports compression
